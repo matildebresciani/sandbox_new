@@ -1,0 +1,23 @@
+body {
+    background-color: #acbda1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: darkgreen;
+}
+
+a {
+    color: darkgreen;
+}
+
+a:hover {
+    color: rgb(45, 126, 45);
+}

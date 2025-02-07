@@ -1,0 +1,26 @@
+body {
+    margin: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    width: 400px;
+}
+
+.hidden {
+    display: none;
+}
+
+.animation {
+    animation: 1s celebrate;
+}
+
+@keyframes celebrate {
+    from {
+        scale: 0%;
+      }
+    
+      to {
+        scale: 100%;
+      }
+}
