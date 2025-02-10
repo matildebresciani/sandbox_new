@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+[data-theme = "light"] {
+    --header-bg-color: rgb(233, 217, 171);
+    --bg-color: beige;
+    --text-color: brown;
+    --dropdown: beige;
+}
+
+[data-theme = "dark"] {
+    --header-bg-color: rgb(36, 36, 36);
+    --bg-color: rgb(84, 84, 84);
+    --text-color: white;
+--dropdown:rgb(121, 121, 121);
+}
+
+[data-theme = "hawaii"]{
+    --header-bg-color: rgb(152, 152, 228);
+    --bg-color: pink; 
+    --text-color: yellow;
+    --dropdown: pink;
+}
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--text-color);
+}
+
+header, footer{
+    background-color: var(--header-bg-color);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+main {
+    height: 70vh;
+    background-color: var(--bg-color);
+}
+
+p {
+    width: 65ch;
+    padding: 2rem;
+}
+
+footer {
+    padding: 2rem;
+}
+
+select {
+    padding: 3px;
+    border: solid  1px;
+    border-radius: 7px;
+    background-color: var(--dropdown);
+    color: var(--text-color);
+}

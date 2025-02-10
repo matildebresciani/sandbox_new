@@ -13,4 +13,17 @@ const texts = {
     ],
   },
 };
+
+document
+  .querySelector("#choose_language")
+  .addEventListener("change", languageChange);
+
+function languageChange(evt) {
+  locale = document.querySelector("#choose_language").value;
+  console.log(texts[locale].texts);
+  texts[locale].texts.forEach((element) => {
+    document.querySelector(element.location).textContent = element.text;
+  });
+}
+
 const locale = "da";
