@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(160, 195, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+padding: 10px;
+color: white;
+background-color: lightgray;
+border: 2px solid white;
+border-radius: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+background-image: linear-gradient(rgb(255, 104, 104), rgb(255, 104, 104));
+background-repeat: no-repeat;
+background-size: 0% 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.animation {
+    animation: 3s linear normal animationBtn;
+}
+
+@keyframes animationBtn {
+from {
+    background-size: 0 100%;
+}
+
+to {
+background-size: 100% 100%;
+}
+}
