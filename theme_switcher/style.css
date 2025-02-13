@@ -42,8 +42,16 @@ header {
 }
 
 main {
-    height: 70vh;
+    height: 65vh;
     background-color: var(--bg-color);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 p {
