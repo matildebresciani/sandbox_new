@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(163, 209, 180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.antal {
+    font-size: 100px;
+    transition: transform 0.5s ease;
+}
+
+.grow {
+    transform: scale(1.5);
+}
